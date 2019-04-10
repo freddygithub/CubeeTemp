@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <script src="https://rawgit.com/enyo/dropzone/master/dist/dropzone.js"></script>
+<link rel="stylesheet" href="https://rawgit.com/enyo/dropzone/master/dist/dropzone.css">
+
+    
+  <title>Cubee</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+  <!-- Custom styles for this template -->
+  <link href="css/agency.min.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+    <div class="container">
+        <div class="logo"></div>
+      <a class="h2" href="#page-top">Cubee</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav text-uppercase ml-auto">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="contact.html">Contact</a>
+          </li>
+            <li class="nav-item">
+             <a class="btn-home nav-link js-scroll-trigger" href="CubeeCode.html">Create a Cubee</a>
+            </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header -->
+  <header class="masthead2">
+    <div class="container" style="height: 100px;">
+      <div class="intro-text">
+      </div>
+    </div>
+  </header>
+    
+  <!-- Services -->
+  <section id="services">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 text-center">
+          <h2 class="section-heading text-uppercase">You're All Done!</h2><br>
+          <h3 class="section-subheading text-muted">If everything looks good, you are ready to print. Follow these tips:</h3>
+            <ul class="listy">
+                <li>Place the Special Cubee Backlit Film into your inkjet printer.</li>
+                <li>Make sure to print on the GLOSSY side of the film.</li>
+                <li>Once printing is complete, let stand for 1-2 minutes before cutting.</li>
+                <li>Slide photo into your Cubee and enjoy!</li>
+            </ul>
+            <br><br>
+            <button class="btn btn-primary btn-xl text-uppercase">Print PDF</button>
+            <br><br>
+        </div> 
+        <div class="col-lg-6 text-center">
+            <div class="card-large">
+                    <div class="rowy" style="margin-top: 20px;">
+                        <div class="card-large-img shadow"></div>
+                        <div class="card-large-img2 shadow"></div>
+                        <br><br>
+                        <div class="card-large-img3 shadow"></div>
+                        <div class="card-large-img4 shadow"></div>
+                        <br><br>
+                        <div class="card-large-img5 shadow"></div>
+                        <div class="card-large-img6 shadow"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+  </section>
+    
+<!-- Modal 1 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+            <h3 class="text-uppercase" style="float: left;">Cubee - Edit Slide</h3>
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 mx-auto">
+              <div class="modal-body">
+                <!-- Project Details Go Here -->
+                    <button class="accordion">
+                        <div class="row1">
+                            <div class="circley spacer">
+                              1
+                            </div>
+                            <p class="uploadText">Upload Photo or Video</p>
+                        </div>
+                    </button>
+                    <div class="panel">
+                        <br>
+                        <form action="/file-upload"
+                          class="dropzone"
+                          id="my-awesome-dropzone">
+                        </form>
+                        <br>
+                        <button class="btn btn-primary text-uppercase white nextbtn"> Next</button>
+                        <br>
+                    </div>
+                <br>
+                  <button class="accordion">
+                        <div class="row1">
+                            <div class="circley spacer">
+                              2
+                            </div>
+                            <p class="uploadText">Edit Photo or Video</p>
+                        </div>
+                  </button>
+                    <div class="panel">
+                      <p>Choose Cover Photo if video</p>
+                        <button class="btn btn-primary text-uppercase white nextbtn"> Next</button>
+                        <br>
+                    </div>
+                  <br>
+                    <button class="accordion">
+                        <div class="row1">
+                            <div class="circley spacer">
+                              3
+                            </div>
+                            <p class="uploadText">Preview</p>
+                        </div>  
+                  </button>
+                    <div class="panel">
+                      <p>Preview</p>
+                        <button class="btn btn-primary text-uppercase white nextbtn"> Next</button>
+                        <br>
+                    </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Contact form JavaScript -->
+  <script src="js/jqBootstrapValidation.js"></script>
+  <script src="js/contact_me.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/agency.min.js"></script>
+
+</body>
+
+</html>
